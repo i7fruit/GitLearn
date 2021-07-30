@@ -1,0 +1,7 @@
+This is chapter 3
+
+Use "git diff <file_name>" to see the diffence between the current
+version of a file, and its previous last checkpoint.
+
+If you don't like the current version and want to revert to the previous
+version, use the "git checkout <file_name>" command.

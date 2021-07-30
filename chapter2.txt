@@ -1,0 +1,4 @@
+This is chapter 2
+
+Use "git add . " to add all the files in the current directory
+into the staging area.

@@ -1,0 +1,24 @@
+The Story directory is the WORKING DIRECTORY
+
+
+To initialize a git local repository, type "git init"
+this initializes an empty git repository inside the Story directory.
+
+
+In order to start tracking the changes of my files, e.g this file containing this text, I need to add this file to a STAGING AREA.
+
+
+STAGING AREA: An intermediate place where one can pick and choose what files in the Working Directory that one wants to commit. 
+
+
+Use the "git status" command to see what's in the staging area.
+UNTRACKED FILES, which show in red text, show files that are in the working directory, but have not been added to the staging area.
+
+
+To add to the staging area and start tracking changes in the file, use the "git add <file_name>" command. Files in the staging area will be shown in green text, and are ready to be committed. "git add <file_name> adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
+
+
+Use "git commit" to commit a file.
+Use the -m flag to add a commit message. A commit message helps one keep track of what changes one has made in each commit. Eg git commit -m "Initial Commit" shows that this is a starting point. Write commit messages in the present tense. "git commit" commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+
+The "git log" command keeps a log of commits made.
