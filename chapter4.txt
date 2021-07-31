@@ -19,3 +19,10 @@ After creating the remote, push the local repo to the remote repo with the push 
 Local repo's pushed to the remote name origin, and the branch called master
 
 The MASTER branch is the default/main branch of all the commits
+
+ADDING A BRANCH
+Use the "git branch <branch_name>" command to create a new branch
+
+Check braches available by using the "git branch" command
+
+Use the "git checkout <branch_name> to switch to the branch you want to switch to
