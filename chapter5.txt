@@ -2,6 +2,6 @@
 
 "git branch" Displays available branches
 
-"git merge <branch_name>" to merge <branch_name> with another branch
+"git branch -d <local_branch_name>" Deletes local repository
 
-You can add a merge message if you like.
+"git push origin --delete <remote_branch_name>" Deletes remote repository
