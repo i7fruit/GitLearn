@@ -1,1 +1,3 @@
-Nothing in here
+"git branch <branch_name>" Adds a new branch
+
+"git branch" Displays available branches
