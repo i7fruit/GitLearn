@@ -1,6 +1,6 @@
 Chapter 4
 
-For remote repositories
+FOR REMOTE REPOSITORIES
 
 Create a new repository on Git hub, give it a name, and/or a description and a Readme.md
 
