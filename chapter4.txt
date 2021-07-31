@@ -1,0 +1,21 @@
+Chapter 4
+
+For remote repositories
+
+Create a new repository on Git hub, give it a name, and/or a description and a Readme.md
+
+Copy the http/ssh link address shown
+
+If you have a local repository you wanna push, then use the "git remote add origin <url copied from github>" command.
+
+REMOTE tells your local git repository that you've created a remote repository on the internet and want to transfer your commits there.
+
+ORIGIN is the name of the remote. It can be called anything, but just called Origin by convention
+
+After creating the remote, push the local repo to the remote repo with the push command
+
+"git push -u origin master"
+-u links the local to the remote
+Local repo's pushed to the remote name origin, and the branch called master
+
+The MASTER branch is the default/main branch of all the commits
