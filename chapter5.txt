@@ -3,3 +3,5 @@
 "git branch" Displays available branches
 
 "git merge <branch_name>" to merge <branch_name> with another branch
+
+You can add a merge message if you like.
